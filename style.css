@@ -1,0 +1,271 @@
+/*------------------------
+        RESET
+---------------------- */
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/*------------------------
+        GENERALI
+---------------------- */
+
+.standard-width {
+  display: flex;
+  max-width: 1200px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+body{
+  font-family: "Roboto", serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.button{
+  padding: 10px;
+  border-radius: 40px;
+  border: none;
+  cursor: pointer;
+  background-color: white;
+}
+
+.blue-button{
+  background-color: #8EA1E1;
+  color: white;
+  margin-top: 30px;
+  padding: 14px 24px;
+}
+
+i{
+  margin-right: 5px;
+}
+
+
+/*------------------------
+        FONT
+---------------------- */
+
+.header-bottom .container > h1{
+  font-size: 60px;
+}
+
+.col-small > p{
+  line-height: 30px;
+  font-size: 20px;
+}
+
+.container > p{
+  line-height: 35px;
+  margin-top: 30px;
+  font-size: 23px;
+}
+
+
+.section-4 .container > h1{
+  font-size: 50px;
+  text-align: center;
+  margin-top: 200px;
+}
+
+.section-4 .container > p{
+  font-size: 50px;
+  text-align: center;
+  line-height: 35px;
+  margin-top: 30px;
+  font-size: 20px;
+  padding-left: 95px;
+  padding-right: 95px;
+}
+
+.bottom-section-4{
+  text-align: center;
+}
+
+
+/*------------------------
+        HEADER
+---------------------- */
+
+header {
+  background-color: #3161E0;
+  color: white;
+  background-image: url(img/jumbo.png);
+  background-size: cover;
+}
+
+.header-top {
+  padding: 30px;
+}
+
+.header-top > .container {
+  display: flex;
+  max-width: 1200px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.header-top .logo {
+  width: 20%;
+  padding: 6px;
+}
+
+.header-top .link {
+  width: 60%;
+  text-align: center;
+  padding: 6px;
+}
+
+.header-top .login {
+  width: 20%;
+  text-align: right;
+  padding: 6px;
+}
+
+.header-bottom {
+  display: flex;
+  padding: 50px 0;
+}
+
+.header-bottom > .container {
+  width: 910px;
+  min-height: 400px;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+}
+
+
+.link{
+  display: flex;
+  gap: 30px;
+  justify-content: center;
+  align-items: center;
+}
+
+.link a{
+  text-decoration: none;
+  color: white;
+}
+
+.container-button{
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+}
+
+.container-button > .button-mac, .container-button > .button-discord{
+  margin-top: 20px;
+  padding: 14px 24px;
+  font-size: 16px;
+}
+
+.container-button > .button-discord{
+  background-color: #23272A;
+  color: white;
+}
+
+
+
+/*------------------------
+        MAIN
+---------------------- */
+
+.col-big{
+    width: 70%;
+    min-height: 500px;
+    margin: 50px 0;
+}
+
+.col-small{
+    width: 30%;
+    min-height: 500px;
+    margin: 50px 0;
+}
+
+.section-2 .col-small{
+  width: 40%;
+  margin-right: 60px;
+}
+
+.section-2 .col-big{
+  width: 60%;
+}
+
+
+.container-big-small{
+    background-color: #d3d3d3;
+}
+
+.standard-width > .container {
+    display: flex;
+    flex-direction: column;
+    min-height: 900px;
+    width: 100%;
+    margin: 50px 0;
+}
+
+.section-1 .col-small > h1, 
+.section-2 .col-small > h1, 
+.section-3 .col-small > h1{
+  font-size: 50px;
+  padding-top: 30px;
+  padding-bottom: 30px;
+}
+
+
+
+
+/*------------------------
+        FOOTER
+---------------------- */
+
+footer {
+    background-color: #23272a;
+}
+
+.col-red{
+    width: 40%;
+    min-height: 580px;
+    background-color: #f08080;
+    border: dashed 2px black;
+    margin: 15px 0 45px 0;
+}
+
+.col-aqua{
+    width: 15%;
+    min-height: 580px;
+    background-color: #20b2aa;
+    border: dashed 2px white;
+    margin: 15px 0 45px 0;
+}
+
+.footer-credits{
+    background-color: #7fffd4;
+    display: flex;
+    max-width: 1200px;
+    margin-left: auto;
+    margin-right: auto;
+    justify-content: space-between;
+    margin-top: 30px;
+}
+
+.logo2, .bottone{
+    border: dashed 2px black;
+    padding: 5px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    cursor: pointer;
+    transition-duration: 0.5s;
+}
+
+.button1:hover{
+  background-color: #228b22;
+}
+
+.button2:hover{
+  background-color: #228b22;
+}
